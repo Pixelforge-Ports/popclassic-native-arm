@@ -1,0 +1,305 @@
+{
+  "id": "popclassic",
+  "title": "Prince of Persia Classic",
+  "version_label": "1.0",
+  "apk_sha256": "8691634981b8b79266e73af13c35fc47ab0584fb620b5c5d5f745cb4e6d2372e",
+  "libraries": [
+    {
+      "path": "lib/armeabi/libcocos2d.so",
+      "size": 1434208,
+      "sha256": "a8315da4825044186a03ee1068d2953faa8f812ebb54a4c5311e237d1b201a22",
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi/libcocosdenshion.so",
+      "size": 74356,
+      "sha256": "7268a6cfeaf54b53de492c6b381cf7bbfee506483f700ae513cd18f2a868d31c",
+      "machine": 40
+    },
+    {
+      "path": "lib/armeabi/libgame_logic.so",
+      "size": 1345448,
+      "sha256": "d4ed70c21be0a6eb6470bb0238ee3beeb35cdb486765f245cc7b887b1d52ba92",
+      "machine": 40
+    }
+  ],
+  "native_methods": [
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxAccelerometer;",
+      "name": "onSensorChanged",
+      "signature": "(FFFJ)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxAccelerometer_onSensorChanged",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxActivity;",
+      "name": "GetConfig",
+      "signature": "(Ljava/lang/String;Ljava/lang/String;)Z",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxActivity_GetConfig",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxActivity;",
+      "name": "SetControlInVisible",
+      "signature": "()V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxActivity_SetControlInVisible",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxActivity;",
+      "name": "SetControlVisible",
+      "signature": "()V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxActivity_SetControlVisible",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxActivity;",
+      "name": "nativeSetDensityScaleValue",
+      "signature": "(F)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxActivity_nativeSetDensityScaleValue",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxActivity;",
+      "name": "nativeSetIsGoogleLauncherBuild",
+      "signature": "(Z)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxActivity_nativeSetIsGoogleLauncherBuild",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxActivity;",
+      "name": "nativeSetNumOfCPUCores",
+      "signature": "(I)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxActivity_nativeSetNumOfCPUCores",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxActivity;",
+      "name": "nativeSetPackageName",
+      "signature": "(Ljava/lang/String;)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxActivity_nativeSetPackageName",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxActivity;",
+      "name": "nativeSetPaths",
+      "signature": "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxActivity_nativeSetPaths",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxBitmap;",
+      "name": "nativeInitBitmapDC",
+      "signature": "(II[B)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxBitmap_nativeInitBitmapDC",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeDeleteBackward",
+      "signature": "()V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeDeleteBackward",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeGetContentText",
+      "signature": "()Ljava/lang/String;",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeGetContentText",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeInit",
+      "signature": "(II)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeInit",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeInsertText",
+      "signature": "(Ljava/lang/String;)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeInsertText",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeKeyDown",
+      "signature": "(I)Z",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeKeyDown",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeKeyUp",
+      "signature": "(I)Z",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeKeyUp",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeOnPause",
+      "signature": "()V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeOnPause",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeOnResume",
+      "signature": "()V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeOnResume",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeRender",
+      "signature": "()V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeRender",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeTouchesBegin",
+      "signature": "(IFF)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeTouchesBegin",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeTouchesCancel",
+      "signature": "([I[F[F)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeTouchesCancel",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeTouchesEnd",
+      "signature": "(IFF)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeTouchesEnd",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxRenderer;",
+      "name": "nativeTouchesMove",
+      "signature": "([I[F[F)V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxRenderer_nativeTouchesMove",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/cocos2dx/lib/Cocos2dxVideo;",
+      "name": "onVideoCompleted",
+      "signature": "()V",
+      "flags": 266,
+      "native": true,
+      "static": true,
+      "code_offset": 0,
+      "export": "Java_org_cocos2dx_lib_Cocos2dxVideo_onVideoCompleted",
+      "export_present": true
+    },
+    {
+      "class": "Lorg/ubisoft/InApp/InAppHandler;",
+      "name": "purchaseSuccessful",
+      "signature": "(Ljava/lang/String;)I",
+      "flags": 258,
+      "native": true,
+      "static": false,
+      "code_offset": 0,
+      "export": "Java_org_ubisoft_InApp_InAppHandler_purchaseSuccessful",
+      "export_present": true
+    }
+  ],
+  "loose_files": [],
+  "runtime_status": "engine adapter not implemented; not a playable port"
+}

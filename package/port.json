@@ -1,0 +1,24 @@
+{
+  "version": 4,
+  "name": "popclassic.zip",
+  "items": ["Prince of Persia Classic.sh", "popclassic"],
+  "items_opt": [],
+  "attr": {
+    "title": "Prince of Persia Classic",
+    "porter": ["Pixelforge Ports (Ronax)"],
+    "desc": "The classic cinematic platform adventure, running from the player's own Android 1.0 game files on ARM Linux.",
+    "desc_md": null,
+    "inst": "Copy the matching Prince of Persia Classic 1.0 APK and OBB into ports/popclassic/gamedata, then launch the port. The APK may keep its original filename; the OBB must be named main.1.org.ubisoft.premium.POPClassic.obb. The first launch imports the files on the handheld. No game data is included.",
+    "inst_md": null,
+    "genres": ["action", "platformer"],
+    "image": {},
+    "rtr": false,
+    "exp": false,
+    "runtime": [],
+    "store": [],
+    "availability": "paid",
+    "reqs": [],
+    "arch": ["armhf"],
+    "min_glibc": "2.29"
+  }
+}

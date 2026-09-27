@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gameList>
+  <game>
+    <path>./Prince of Persia Classic.sh</path>
+    <name>Prince of Persia Classic</name>
+    <image>./popclassic/cover.png</image>
+    <desc>A cinematic platform adventure through the palace dungeon.</desc>
+  </game>
+</gameList>

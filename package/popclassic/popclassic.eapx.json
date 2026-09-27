@@ -1,0 +1,234 @@
+{
+  "schema": 1,
+  "id": "popclassic-1.0",
+  "version": "1",
+  "title": "Prince of Persia Classic",
+  "abi_order": [
+    "arm"
+  ],
+  "input": {
+    "search_dirs": [
+      "gamedata",
+      "."
+    ]
+  },
+  "extract": [
+    {
+      "id": "obb-common",
+      "destination": "donor/Data",
+      "source": {
+        "kind": "entries",
+        "patterns": [
+          "Data/*"
+        ],
+        "strip_prefix": "Data"
+      },
+      "validate": {
+        "min_files": 304,
+        "max_files": 304,
+        "min_bytes": 100082011,
+        "max_bytes": 100082011
+      }
+    },
+    {
+      "id": "obb-high",
+      "destination": "donor/DataHighRes",
+      "source": {
+        "kind": "entries",
+        "patterns": [
+          "Data_960_576/*"
+        ],
+        "strip_prefix": "Data_960_576"
+      },
+      "validate": {
+        "min_files": 302,
+        "max_files": 302,
+        "min_bytes": 64202392,
+        "max_bytes": 64202392
+      }
+    },
+    {
+      "id": "obb-low",
+      "destination": "donor/DataLowRes",
+      "source": {
+        "kind": "entries",
+        "patterns": [
+          "Data_640_384/*"
+        ],
+        "strip_prefix": "Data_640_384"
+      },
+      "validate": {
+        "min_files": 297,
+        "max_files": 297,
+        "min_bytes": 34425983,
+        "max_bytes": 34425983
+      }
+    },
+    {
+      "id": "obb-mid",
+      "destination": "donor/DataMidRes",
+      "source": {
+        "kind": "entries",
+        "patterns": [
+          "Data_640_384/*"
+        ],
+        "strip_prefix": "Data_640_384"
+      },
+      "validate": {
+        "min_files": 297,
+        "max_files": 297,
+        "min_bytes": 34425983,
+        "max_bytes": 34425983
+      }
+    },
+    {
+      "id": "library-0",
+      "destination": "donor/lib/armeabi/libcocos2d.so",
+      "source": {
+        "kind": "entry",
+        "patterns": [
+          "lib/armeabi/libcocos2d.so"
+        ]
+      },
+      "validate": {
+        "size": 1434208,
+        "sha256": [
+          "a8315da4825044186a03ee1068d2953faa8f812ebb54a4c5311e237d1b201a22"
+        ],
+        "elf_machine": "arm"
+      }
+    },
+    {
+      "id": "library-1",
+      "destination": "donor/lib/armeabi/libcocosdenshion.so",
+      "source": {
+        "kind": "entry",
+        "patterns": [
+          "lib/armeabi/libcocosdenshion.so"
+        ]
+      },
+      "validate": {
+        "size": 74356,
+        "sha256": [
+          "7268a6cfeaf54b53de492c6b381cf7bbfee506483f700ae513cd18f2a868d31c"
+        ],
+        "elf_machine": "arm"
+      }
+    },
+    {
+      "id": "library-2",
+      "destination": "donor/lib/armeabi/libgame_logic.so",
+      "source": {
+        "kind": "entry",
+        "patterns": [
+          "lib/armeabi/libgame_logic.so"
+        ]
+      },
+      "validate": {
+        "size": 1345448,
+        "sha256": [
+          "d4ed70c21be0a6eb6470bb0238ee3beeb35cdb486765f245cc7b887b1d52ba92"
+        ],
+        "elf_machine": "arm"
+      }
+    },
+    {
+      "id": "original-apk",
+      "destination": "donor/original.apk",
+      "source": {
+        "kind": "blob",
+        "patterns": [
+          "*.apk"
+        ]
+      },
+      "validate": {
+        "size": 47779506,
+        "sha256": [
+          "8691634981b8b79266e73af13c35fc47ab0584fb620b5c5d5f745cb4e6d2372e"
+        ]
+      }
+    },
+    {
+      "id": "apk-assets",
+      "destination": "donor/apk-assets",
+      "source": {
+        "kind": "entries",
+        "patterns": [
+          "assets/*"
+        ],
+        "strip_prefix": "assets"
+      },
+      "validate": {
+        "min_files": 260,
+        "max_files": 260,
+        "min_bytes": 48382738,
+        "max_bytes": 48382738
+      }
+    },
+    {
+      "id": "obb-0",
+      "destination": "donor/main.1.org.ubisoft.premium.POPClassic.obb",
+      "source": {
+        "kind": "blob",
+        "patterns": [
+          "main.1.org.ubisoft.premium.POPClassic.obb"
+        ]
+      },
+      "validate": {
+        "size": 186583110,
+        "sha256": [
+          "80cd03b025806e49c98503628c976812faee4a89d7bd75761f0f8b604226817e"
+        ]
+      }
+    }
+  ],
+  "validate": [
+    {
+      "path": "donor/lib/armeabi/libcocos2d.so",
+      "size": 1434208,
+      "sha256": [
+        "a8315da4825044186a03ee1068d2953faa8f812ebb54a4c5311e237d1b201a22"
+      ],
+      "elf_machine": "arm"
+    },
+    {
+      "path": "donor/lib/armeabi/libcocosdenshion.so",
+      "size": 74356,
+      "sha256": [
+        "7268a6cfeaf54b53de492c6b381cf7bbfee506483f700ae513cd18f2a868d31c"
+      ],
+      "elf_machine": "arm"
+    },
+    {
+      "path": "donor/lib/armeabi/libgame_logic.so",
+      "size": 1345448,
+      "sha256": [
+        "d4ed70c21be0a6eb6470bb0238ee3beeb35cdb486765f245cc7b887b1d52ba92"
+      ],
+      "elf_machine": "arm"
+    },
+    {
+      "path": "donor/original.apk",
+      "size": 47779506,
+      "sha256": [
+        "8691634981b8b79266e73af13c35fc47ab0584fb620b5c5d5f745cb4e6d2372e"
+      ]
+    },
+    {
+      "path": "donor/main.1.org.ubisoft.premium.POPClassic.obb",
+      "size": 186583110,
+      "sha256": [
+        "80cd03b025806e49c98503628c976812faee4a89d7bd75761f0f8b604226817e"
+      ]
+    }
+  ],
+  "commit": [
+    "donor"
+  ],
+  "marker": ".eapx-popclassic-data.json",
+  "log": "eapx.log",
+  "space": {
+    "safety_bytes": 134217728
+  },
+  "requires_eapx": ">=0.4.4"
+}

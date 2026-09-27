@@ -1,0 +1,9 @@
+/build/
+/donor/
+/gamedata/
+/dist/
+*.apk
+*.obb
+*.dex
+*.log
+__pycache__/
